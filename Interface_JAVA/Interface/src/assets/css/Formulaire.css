@@ -1,0 +1,42 @@
+.ContentLogin{
+    height : 27rem;
+    background: white;
+    border-radius: 20px;
+    margin: 8rem;
+    margin-left: 25em;
+    width: 450px;
+    box-shadow: 3px 3px 3px 3px rgba(100, 96, 96, 0.767);
+}
+.inputField{
+    padding : 50px;
+    width: 100%; 
+    position : relative;
+    padding: 5rem;
+    margin-left: 1.5rem;
+    
+}
+label{
+    font-family: 'Calibri';
+    font-size: 17px;
+}
+
+  .btnLogin{
+    text-decoration: none;
+    border: 1px solid ;
+    font-weight: 500;
+    border-radius: 0.70rem;
+    text-align: center;
+    padding: 0.6rem 2rem;
+    font-family: 'Calibri';
+    background: rgb(4, 14, 160);
+    font-size: 1rem;
+    cursor: pointer;
+    color: white;
+    margin-left: 8.5rem;
+    display: inline;
+    margin-top: -20rem;
+  }
+  .backdrop{
+    z-index: 1;
+    color : #f3f3f3;
+  }

@@ -1,0 +1,41 @@
+.text-container{
+    margin: 4rem 1;
+    position: absolute;
+    top: 0;
+    bottom: auto;
+    margin-top: 15%;
+    display: flex;
+    align-items: flex-start;
+    gap: 03rem;
+    size: 20rem;
+}
+
+.text-container h5{
+    font-size: 1rem;
+    font-weight: 400;
+    margin-bottom: 3.5rem;
+}
+.contenu{
+    flex: 1;
+    display: grid;
+    grid-gap: 02rem;
+    grid-template-columns: repeat(2,1fr);
+    
+}
+.text{
+    color: #fff;
+    border-radius: 0.65rem;
+    border: 1.5px solid #0651b9;
+    padding: 2.5rem;
+    text-align: center;
+    background-color: rgba(22,17,47, 0.398);
+    backdrop-filter: blur(1rem);
+    position: relative;
+    cursor: pointer;
+    transition: all 0.1s ease;
+    width: 20rem;
+    right:5rem;
+}
+.text:hover{
+    background: linear-gradient(180deg , #374c91 0% , #7387df 100%);
+}
